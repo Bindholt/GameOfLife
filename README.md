@@ -1,6 +1,6 @@
 # Game of Life
 
-Welcome to the Game of Life project!
+Welcome to my Game of Life!
 
 ## Hosted Link
 You can view the live version of the project [here](https://bindholt.github.io/GameOfLife/).
