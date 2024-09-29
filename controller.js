@@ -2,7 +2,7 @@ import Grid from "./model.js";
 import * as view from "./view.js";
 window.addEventListener("load", init);
 
-let ROWS = 44;
+let ROWS = 40;
 let COLS = 105;
 let grid;
 let generation = 0;
