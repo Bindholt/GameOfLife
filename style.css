@@ -1,0 +1,22 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols)1fr);
+    grid-template-rows: repeat(var(--grid-rows),1fr);
+    gap: 0;
+}
+
+#grid > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid > div > div {
+    border: 1px solid lightgrey;
+    aspect-ratio: 1/1;
+    width: 1em;
+}
+
+.alive {
+    background-color: black;
+}
